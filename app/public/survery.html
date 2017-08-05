@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Survey</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <div class = "container">
+
+    <h1> SURVEY QUESTIONS </h1>
+
+    <div class = "row aboutSection">
+      <div class = "col-md-12">
+        <h2> About You </h2>
+        <form>
+          <p> Name (Required) </p>
+          <input type = "text" id = "name" required>
+          <p> Link to Photo Image (Required) </p>
+          <input type = "url" id = "photo" required>
+        </form>
+      </div>
+    </div>
+
+    <div class = "row">
+      <div class = "col-md-12">
+        <!-- Question num -->
+        <h2> Question 1 </h2>
+        <!-- Question -->
+        <p> Your ideal Friday night, is a night in with a couple of beers and a movie playing in the background somewhere.</p>
+        <!-- Dropdown menu with numbers  -->
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Select a rating
+        <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li value = "1">   1 (Strong disagree)</li>
+          <li value = "1">   2 (Slightly disagree)</li>
+          <li value = "1">   3 (Neutral)</li>
+          <li value = "1">   4 (Slightly Agree)</li>
+          <li value = "1">   5 (Strongly agree)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class = "col-md-12">
+      <!-- Question num -->
+      <h2> Question 2</h2>
+      <!-- Question -->
+      <p> You are a very extroverted person and love telling stories about your day.</p>
+      <!-- Dropdown menu with numbers  -->
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Select a rating
+      <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li value = "2">   1 (Strong disagree)</li>
+        <li value = "2">   2 (Slightly disagree)</li>
+        <li value = "2">   3 (Neutral)</li>
+        <li value = "2">   4 (Slightly Agree)</li>
+        <li value = "2">   5 (Strongly agree)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class = "col-md-12">
+    <!-- Question num -->
+    <h2> Question 3</h2>
+    <!-- Question -->
+    <p> You enjoy going on adventures and doing things on the whim.</p>
+    <!-- Dropdown menu with numbers  -->
+    <div class="dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        Select a rating
+    <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li value = "3">   1 (Strong disagree)</li>
+      <li value = "3">   2 (Slightly disagree)</li>
+      <li value = "3">   3 (Neutral)</li>
+      <li value = "3">   4 (Slightly Agree)</li>
+      <li value = "3">   5 (Strongly agree)</li>
+    </ul>
+  </div>
+</div>
+
+<div class = "col-md-12">
+  <!-- Question num -->
+  <h2> Question 4</h2>
+  <!-- Question -->
+  <p> You like spending most of your time with other people.</p>
+  <!-- Dropdown menu with numbers  -->
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Select a rating
+  <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li value = "4">   1 (Strong disagree)</li>
+    <li value = "4">   2 (Slightly disagree)</li>
+    <li value = "4">   3 (Neutral)</li>
+    <li value = "4">   4 (Slightly Agree)</li>
+    <li value = "4">   5 (Strongly agree)</li>
+  </ul>
+</div>
+</div>
+
+<div class = "col-md-12">
+  <!-- Question num -->
+  <h2> Question 5</h2>
+  <!-- Question -->
+  <p> In a discussion, truth should be more important than people’s sensitivities.</p>
+  <!-- Dropdown menu with numbers  -->
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Select a rating
+  <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li value = "5">   1 (Strong disagree)</li>
+    <li value = "5">   2 (Slightly disagree)</li>
+    <li value = "5">   3 (Neutral)</li>
+    <li value = "5">   4 (Slightly Agree)</li>
+    <li value = "5">   5 (Strongly agree)</li>
+  </ul>
+</div>
+</div>
+
+<div class = "col-md-12">
+  <!-- Question num -->
+  <h2> Question 6</h2>
+  <!-- Question -->
+  <p> You have a bedtime around 11 pm.</p>
+  <!-- Dropdown menu with numbers  -->
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Select a rating
+  <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li value = "6">   1 (Strong disagree)</li>
+    <li value = "6">   2 (Slightly disagree)</li>
+    <li value = "6">   3 (Neutral)</li>
+    <li value = "6">   4 (Slightly Agree)</li>
+    <li value = "6">   5 (Strongly agree)</li>
+  </ul>
+</div>
+</div>
+
+<div class = "col-md-12">
+  <!-- Question num -->
+  <h2> Question 7</h2>
+  <!-- Question -->
+  <p> You have strong opinions that are hard to be swayed.</p>
+  <!-- Dropdown menu with numbers  -->
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Select a rating
+  <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" >
+    <li value = "7">   1 (Strong disagree)</li>
+    <li value = "7">   2 (Slightly disagree)</li>
+    <li value = "7">   3 (Neutral)</li>
+    <li value = "7">   4 (Slightly Agree)</li>
+    <li value = "7">   5 (Strongly agree)</li>
+  </ul>
+</div>
+</div>
+
+<div class = "col-md-12">
+  <!-- Question num -->
+  <h2> Question 8</h2>
+  <!-- Question -->
+  <p> If you were rich, you would spend most of your money on food.</p>
+  <!-- Dropdown menu with numbers  -->
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Select a rating
+  <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li  value = "8">   1 (Strong disagree)</li>
+    <li value = "8">   2 (Slightly disagree)</li>
+    <li value = "8">   3 (Neutral)</li>
+    <li value = "8">   4 (Slightly Agree)</li>
+    <li value = "8">   5 (Strongly agree)</li>
+  </ul>
+</div>
+</div>
+
+<div class = "col-md-12">
+  <!-- Question num -->
+  <h2> Question 9</h2>
+  <!-- Question -->
+  <p> You find yourself being very affectionate with your bromies.</p>
+  <!-- Dropdown menu with numbers  -->
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu9" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Select a rating
+  <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li  value = "9">   1 (Strong disagree)</li>
+    <li value = "9">   2 (Slightly disagree)</li>
+    <li value = "9">   3 (Neutral)</li>
+    <li value = "9">   4 (Slightly Agree)</li>
+    <li value = "9">   5 (Strongly agree)</li>
+  </ul>
+</div>
+</div>
+
+<div class = "col-md-12">
+  <!-- Question num -->
+  <h2> Question 10</h2>
+  <!-- Question -->
+  <p> It is often difficult for you to relate to other people’s feelings.</p>
+  <!-- Dropdown menu with numbers  -->
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" >
+      Select a rating
+  <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" >
+    <li value = "10">   1 (Strong disagree)</li>
+    <li value = "10">   2 (Slightly disagree)</li>
+    <li value = "10">   3 (Neutral)</li>
+    <li value = "10">   4 (Slightly Agree)</li>
+    <li value = "10">   5 (Strongly agree)</li>
+  </ul>
+  </div>
+  </div>
+  <button type="button" class="btn btn-primary btn-lg btn-block">Submit survey!</button>
+  </div>
+</div>
+
+  <footer class="footer">
+    <div class="container">
+      <p><a href="/api/friends">Friends API</a> | <a href="">GitHub Repo</a></p>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+<script type = "text/javascript">
+
+
+//showing options when toggling drop down menus
+$(document).ready(function(){
+
+  //array of numbers they picked
+  var surveynums = [];
+
+  //when someone clicks an option for rating
+  $("li").click(function(){
+    var v = $(this).val();
+    var dd = "#dropdownMenu" + v;
+
+    //change the "pick your rating to what they picked"
+    $(dd).html($(this).text());
+
+    //store the text as a number into an array
+    var num = parseInt($(this).text());
+
+    //the the number of the value, and store the rating into the index - 1 of array
+    surveynums[v - 1] = num;
+
+    });
+
+   //when the submit button is clicked, post it to the api friends tables
+   $(".btn-block").on("click", function(event){
+     event.preventDefault();
+
+     //grav information from form
+     var newFriend = {
+       friend: $("#name").val().trim(),
+       photo:  $("#photo").val().trim(),
+       results: surveynums
+     }
+     //post to reference api friends
+     $.post("/api/friends", newFriend, function(data, res){
+
+       //with the best friend change modal
+       $("h5").html("YOUR BEST MATCH: " + data.friend);
+
+       //change content to the pic
+       $(".modal-body").html("<img src = \'" + data.photo + "\'>");
+
+       //show modal
+       $('#myModal').modal({
+         show: true
+       });
+
+
+
+     });
+
+      $.post("/", "hello", function (data){
+
+      });
+   });
+
+
+});
+
+
+</script>
+</html>
